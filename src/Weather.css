@@ -1,0 +1,23 @@
+body {
+  background: #d7e9ed;
+  color: #4d5254;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Weather .container {
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/044/382/original/pexels-johannes-plenio-1103970.jpg?1661344718);
+  background-size: cover;
+  color: white;
+  margin: 20px auto;
+  max-width: 720px;
+  padding: 40px;
+  opacity: 0.9;
+}
