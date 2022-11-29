@@ -1,4 +1,5 @@
 import React from "react";
+import SearchEngine from "./SearchEngine";
 
 import "./Weather.css";
 
@@ -17,6 +18,7 @@ export default function Weather() {
   return (
     <div className="Weather">
       <div className="container">
+        <SearchEngine />
         <form className="d-flex justify-content-center">
           <input
             type="text"
